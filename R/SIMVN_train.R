@@ -4,6 +4,7 @@
 #' @param X A data matrix.
 #' @param verbose A boolean: whether or not to print EM iterations
 #' @return A list with the estimated mean and variance for the data
+#' @export SIMVN_train
 SIMVN_train = function(X, verbose=F){
   # Must run *rngseed* at least once before using
   pre <- prelim.norm2(as.matrix(X))

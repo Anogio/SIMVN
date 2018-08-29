@@ -3,7 +3,8 @@
 #' @param fittedM A parameter list as returned by SIMVN_train
 #' @param X A data matrix
 #' @return \code{X} filled with estimated values
-SIMVN_impute.R = function(fittedM, X){
+#' @export SIMVN_impute
+SIMVN_impute = function(fittedM, X){
   #print(dim(X))
   #thetahat <- em.norm(pre)
   sigma = fittedM$sigma
