@@ -1,0 +1,13 @@
+Package: SIMVN
+Title: Single Imputation with Normal Conditional Mean
+Version: 1.0
+Authors@R: person("Antoine", "Ogier", email = "antoine.ogier@polytechnique.edu", role = c("aut", "cre"))
+Description: This package allows single imputation of missing data using a normal approximation. Missing values are replaced with their expected value given the observed ones. The training and imputation phases are provided by two separate functions.
+Depends: R (>= 3.5.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports:
+	norm,
+	purrr
+RoxygenNote: 6.1.0.9000
